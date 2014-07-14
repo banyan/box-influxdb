@@ -4,9 +4,6 @@ Wercker box for influxdb
 
 See the boxes section on our [dev center](http://devcenter.wercker.com/articles/boxes)
 
-Source:
-https://github.com/banyan/box-influxdb
-
 use this with wercker; in your wercker.yml file:
 
 ``` yaml
