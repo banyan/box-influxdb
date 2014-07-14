@@ -1,5 +1,7 @@
 # box-influxdb
 
+[![wercker status](https://app.wercker.com/status/8cf9c521910de1ab6353ea08843ce75f/m "wercker status")](https://app.wercker.com/project/bykey/8cf9c521910de1ab6353ea08843ce75f)
+
 Wercker box for influxdb
 
 See the boxes section on our [dev center](http://devcenter.wercker.com/articles/boxes)
