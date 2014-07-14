@@ -1,0 +1,21 @@
+name: influxdb
+version: 0.0.1
+inherits: wercker/ubuntu12.04-webessentials@1.0.4
+type: service
+platform: ubuntu@12.04
+description: wercker box for influxdb
+keywords:
+  - influxdb
+  - nosql
+  - database
+  - json
+packages:
+  - influxdb@0.6.5
+script: |
+  wget http://s3.amazonaws.com/influxdb/influxdb_0.6.5_amd64.deb
+  sudo dpkg -i influxdb_latest_amd64.deb
+env:
+  WERCKER_INFLUXDB_PORT: 8086
+  WERCKER_INFLUXDB_HOST: $$HOST$$
+  WERCKER_INFLUXDB_URL: $$HOST$$:28015
+  WERCKER_RETHINKDB_VERSION: "0.6.5"
