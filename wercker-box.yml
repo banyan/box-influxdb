@@ -13,7 +13,7 @@ packages:
   - influxdb@0.6.5
 script: |
   wget http://s3.amazonaws.com/influxdb/influxdb_0.6.5_amd64.deb
-  sudo dpkg -i influxdb_latest_amd64.deb
+  sudo dpkg -i influxdb_0.6.5_amd64.deb
 env:
   WERCKER_INFLUXDB_PORT: 8086
   WERCKER_INFLUXDB_HOST: $$HOST$$
