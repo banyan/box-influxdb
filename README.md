@@ -1,4 +1,6 @@
-Wercker box for rethinkdb
+# box-influxdb
+
+Wercker box for influxdb
 
 See the boxes section on our [dev center](http://devcenter.wercker.com/articles/boxes)
 
