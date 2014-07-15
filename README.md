@@ -2,24 +2,23 @@
 
 [![wercker status](https://app.wercker.com/status/8cf9c521910de1ab6353ea08843ce75f/m "wercker status")](https://app.wercker.com/project/bykey/8cf9c521910de1ab6353ea08843ce75f)
 
-Wercker box for influxdb
-
+Wercker box for influxdb.
 See the boxes section on our [dev center](http://devcenter.wercker.com/articles/boxes)
 
-use this with wercker; in your wercker.yml file:
+## Usage
+
+use this with wercker in your wercker.yml file:
 
 ``` yaml
 services:
   - banyan/influxdb
 ```
 
-Status on wercker:
-
 ## License
 
 The MIT License (MIT)
 
-Copyright (c) 2013 wercker
+Copyright (c) 2014 wercker
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
